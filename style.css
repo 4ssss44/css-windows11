@@ -25,14 +25,14 @@ body {
 
 .site-nav {
     display: flex;
-    padding: 0.5rem;
+    padding: 0.5rem; /* era unset */
     list-style-type: none;
     background-color: #5f4b44;
 }
 
 .site-nav>li>a {
-    display: block;
-    padding: 0.5em 1em;
+    display: block; /* não existia */
+    padding: 0.5em 1em; /* não existia */
     background-color: #cc6b5a;
     color: white;
     text-decoration: none;
